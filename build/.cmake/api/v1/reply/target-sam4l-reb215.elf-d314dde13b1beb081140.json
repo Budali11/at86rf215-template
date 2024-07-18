@@ -1,0 +1,403 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "sam4l-reb215.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 123,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -march=armv7-m -mthumb -O0 -g -std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "BOARD=SAM4L8_XPLAINED_PRO"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__SAM4LC8C__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/sam4l-reb215/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/arm-none-eabi-13.3.rel1/arm-none-eabi/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/CMSIS/5.4.0/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/common/boards"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/common/services/clock"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/common/services/clock/sam4l"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/common/services/ioport"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/common/services/ioport/sam"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/common/services/serial"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/common/services/serial/sam_uart"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/common/utils"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/common/utils/interrupt"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/utils"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/utils/cmsis"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/utils/cmsis/sam4l/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/utils/cmsis/sam4l/source/templates"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/utils/cmsis/sam4l/include/component"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/utils/cmsis/sam4l/include/instance"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/utils/cmsis/sam4l/include/pio"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/utils/fpu"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/utils/header_files"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/utils/preprocessor"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/boards"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/boards/sam4l8_xplained_pro"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/boards/sam4l8_xplained_pro/board_config"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/drivers/bpm"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/drivers/usart"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/drivers/spi"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/drivers/flashcalw"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/drivers/wdt"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/drivers/gpio"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			]
+		}
+	],
+	"id" : "sam4l-reb215.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-march=armv7-m -mthumb -O0 -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-T/home/budali11/workbench/atmel/sam4l-reb215/sam4lc8c_flash.ld -Wl,-Map=sam4l-reb215.map",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "sam4l-reb215.elf",
+	"nameOnDisk" : "sam4l-reb215.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/at86rf215.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/utils/cmsis/sam4l/source/templates/exceptions.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/utils/cmsis/sam4l/source/templates/gcc/startup_sam4l.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/utils/cmsis/sam4l/source/templates/system_sam4l.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/boards/sam4l8_xplained_pro/init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/drivers/usart/usart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/drivers/spi/spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/drivers/flashcalw/flashcalw.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/drivers/bpm/bpm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/drivers/wdt/wdt_sam4l.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/drivers/gpio/gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/sam/utils/syscalls/gcc/syscalls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/common/services/clock/sam4l/sysclk.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/common/services/clock/sam4l/dfll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/common/services/clock/sam4l/osc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/common/services/clock/sam4l/pll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/common/utils/interrupt/interrupt_sam_nvic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/common/utils/stdio/read.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/budali11/workbench/atmel/xdk-asf-3.52.0/common/utils/stdio/write.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

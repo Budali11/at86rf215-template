@@ -1,0 +1,6 @@
+/home/budali11/workbench/atmel/sam4l-reb215/build/CMakeFiles/sam4l-reb215.elf.dir
+/home/budali11/workbench/atmel/sam4l-reb215/build/CMakeFiles/download.dir
+/home/budali11/workbench/atmel/sam4l-reb215/build/CMakeFiles/connect.dir
+/home/budali11/workbench/atmel/sam4l-reb215/build/CMakeFiles/gdb.dir
+/home/budali11/workbench/atmel/sam4l-reb215/build/CMakeFiles/edit_cache.dir
+/home/budali11/workbench/atmel/sam4l-reb215/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sam4l-reb215",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "connect::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-connect-fc40b2ee7995b1278b6f.json",
+					"name" : "connect",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "download::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-download-5127878ca3b818d9f94a.json",
+					"name" : "download",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gdb::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gdb-384a19cd28ef128caf34.json",
+					"name" : "gdb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sam4l-reb215.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sam4l-reb215.elf-d314dde13b1beb081140.json",
+					"name" : "sam4l-reb215.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/budali11/workbench/atmel/sam4l-reb215/build",
+		"source" : "/home/budali11/workbench/atmel/sam4l-reb215"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
